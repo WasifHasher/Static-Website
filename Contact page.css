@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.abc{
+    border: 3px solid red;
+}
+.gray{
+    color:black;
+}
+.navheight{
+    height: 100px;
+    box-shadow: 0px 1px 3px gray ;
+}
+#paddingRightSide{
+    padding-right: 5rem;
+}
+ul li{
+    padding-right: 15px;
+}
+ul li a{
+    padding: 10px;
+    
+}
+ul li:hover{
+    transform: scale(1.1);
+    background-color: orange;
+    padding:0px 4px;
+}
+#icon-text{
+    display: flex;
+
+}
+
+.carousel-item{
+    width: 100%;
+    height: 40vh;
+    /* border: 3px solid red;  */
+}
+#img{
+    width: 100%;
+    height: 40vh;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 0.4;
+   /* border: 3px solid red; */
+}
+#about-img{
+    width: 100%;
+}
+
+#SearchBar{
+    min-height: 120px;
+    background-color: darkblue;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#paragraphText{
+    padding-left: 9rem;
+    padding-top: 15px;
+    font-size: 2rem;
+}
+#h3{
+    font-size: 1rem;
+    color: gray;
+    padding-left: 9rem;
+    margin-top: -1rem;
+}
+#special-offers{
+    color: yellow;
+}
+input{
+    width: 50%;
+    height: 50px;
+    margin-top: 32px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 15px;
+    margin-left: 8rem;
+    font-size: 1.3rem;
+    border: none;
+}
+
+#sign-up{
+   width: 130px;
+   height: 50px;
+   background-color: orangered;
+   font-size: 1.3rem;
+   margin-left: -10px;
+   color: white;
+   border-bottom-right-radius: 5px;
+   border-top-right-radius: 5px;
+   border: none;
+   padding: 8px;
+} 
+
+
+#small-size{
+    width: 80px;
+    height: 40px;
+    padding-right: 5px;
+}
+
+#blackColor{
+    color: black;
+}
+#some-button{
+    width: 160px;
+    height: 50px;
+    border: 2px solid gray;
+    margin-top: 15px;
+    background: none;
+
+}
+
+#footer-text{
+    text-align: center;
+    margin: 0px auto;
+}
+#textarea{
+    height: 10rem;
+}
+
+#iframe{
+    height: 55vh;
+}
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+#form-right{
+    border: 1px solid lightgray;
+    margin-left: 30px;
+}
+
+
+#rightSide{
+    width: 100%;
+    /* border: 3px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+#rightSide #img-right-side{
+    width: 160px;
+    height: 90px;
+    border-radius: 50%;
+}
+#rightSide #head-text{
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px){
+    .lifeSideImage{
+       
+        width: 90%;
+        margin: -5rem auto 0px ;
+    }
+
+    img{
+        width: 80%;
+        height: 25vh;
+        padding: 0px auto;
+        margin-top: 0px;
+        border: 3px solid red;
+       
+    }
+    #h2-text{
+        margin-left: 1.3rem;
+    }
+    .longtext{
+        width: 90%;
+        height: 13rem;
+        /* border: 2px solid red; */
+        overflow: hidden;
+        margin: 10px auto;
+    
+    }
+
+      
+#SearchBar{
+    height: 230px;
+}
+#paragraphText{
+    font-size: 2.5rem;
+    margin-left: -1rem;
+}
+#h3{
+    font-size: 1.3rem;
+    padding-top: 15px;
+    margin-left: -1rem;
+}
+#left-side-input{
+    margin-top: -4rem;
+}
+#blackColor{
+    font-size: 2rem;
+}
+#gray{
+    
+    font-size: 1.3rem;
+}
+#follow{
+    font-size: 2rem;
+}
+/* #center-text{
+    /* border: 3px solid red; 
+} */
+#left-column{
+    width: 45%;
+
+}
+#footer-text{
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+
+}
+
+
+@media screen and (max-width:567px){
+
+    img{
+        width: 100%;
+        height: 25vh;
+        padding: 0px auto;
+        border: 3px solid red;
+       
+    }
+
+    
+    #gray{
+    
+        font-size: 14px;
+    }
+    #blackColor{
+        font-size: 1rem;
+    }
+    
+    #SearchBar{
+        height: 34vh;
+        
+    }
+    #paragraphText{
+      font-size: 1.4rem;
+      margin-left: -5.4rem;
+    }
+    #h3{
+        font-size: 1rem;
+        margin-left: -5.4rem;
+    }
+    #left-side-input{
+       margin:10px 10px;
+        /* border: 3px solid red; */
+        width: 95%;
+    }
+    input{
+        width: 100%;
+        height: 60px;
+        margin:0px 10px;
+        border-radius: 5px;
+    }
+    
+    #sign-up{
+       width: 100%;
+       height: 60px;
+       margin:5px 10px;
+       border-radius: 5px;
+    } 
+
+    #link-div{
+        width: 100%;
+        margin: 0px 1rem;
+
+    }
+
+    #iframe{
+        height: 44vh;
+    }
+    #form-right{
+        margin: 0px 8px;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+

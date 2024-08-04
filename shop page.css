@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.abc{
+    border: 3px solid red;
+}
+.gray{
+    color: gray;
+}
+.navheight{
+    height: 100px;
+    box-shadow: 0px 1px 3px gray ;
+}
+#paddingRightSide{
+    padding-right: 5rem;
+}
+ul li{
+    padding-right: 15px;
+}
+ul li a{
+    padding: 10px;
+    
+}
+ul li:hover{
+    transform: scale(1.1);
+    background-color: orange;
+    padding:0px 4px;
+}
+
+/*Now we make  shop page inside th page we make the image section*/
+.box{
+    background-image: url(picture/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 34vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.box h2{
+    text-align: center;
+    color:white;
+    padding-top: 1rem;
+    letter-spacing: 5px;
+    font-weight: 900;
+}
+.box p{
+    text-align: center;
+    color:white;
+    padding-top: 1rem;
+    word-spacing: 3px;
+}
+
+/*Now we make the card section */
+#NewArrivals{
+    width: 85%;
+    /* border: 3px solid red; */
+    
+}
+#NewArrivals h2{
+    text-align: center;
+    color: blue;
+}
+#NewArrivals .top-text{
+    text-align: center;
+    color: gray;
+}
+
+#card-columns{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    /* border: 3px solid red;  */
+    width: 80%;
+   
+   
+}
+.card{
+    width: 15rem;
+    height: 21rem;
+    padding: 0px 10px;
+    text-align: left;
+    border: 1px solid gray;
+    line-height: 20px;
+    box-shadow: 4px 4px 4px gray;
+    margin:10px 20px;
+    border-radius: 10px;
+}
+
+#img{
+    width: 200px;
+    height: 180px;
+    margin:0px  auto;
+}
+
+h5{
+    color: gray;
+    margin-top: 10px;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons i{
+    color: yellow;
+
+}
+.footer-section p{
+    padding-top: 10px;
+}
+.footer-section .fa-user{
+    padding-left: 13px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    background-color: gainsboro;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+}
+.pagination{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.pagination a{
+   text-decoration: none;
+   background-color: #088178;
+   padding: 15px 20px;
+   border-radius: 4px;
+   color: white;
+   font-weight: 600;
+   margin: 0px 5px;
+}
+#SearchBar{
+    min-height: 120px;
+    background-color: darkblue;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#paragraphText{
+    padding-left: 9rem;
+    padding-top: 15px;
+    font-size: 2rem;
+}
+#h3{
+    font-size: 1rem;
+    color: gray;
+    padding-left: 9rem;
+    margin-top: -1rem;
+}
+#special-offers{
+    color: yellow;
+}
+input{
+    width: 50%;
+    height: 50px;
+    margin-top: 32px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 15px;
+    margin-left: 8rem;
+    font-size: 1.3rem;
+    border: none;
+}
+
+#sign-up{
+   width: 130px;
+   height: 50px;
+   background-color: orangered;
+   font-size: 1.3rem;
+   margin-left: -10px;
+   color: white;
+   border-bottom-right-radius: 5px;
+   border-top-right-radius: 5px;
+   border: none;
+   padding: 8px;
+} 
+
+#small-size{
+    width: 80px;
+    height: 40px;
+    padding-right: 5px;
+}
+
+#blackColor{
+    color: black;
+}
+#some-button{
+    width: 200px;
+    height: 50px;
+    border: 2px solid gray;
+    margin-top: 15px;
+    background: none;
+
+}
+
+#footer-text{
+    text-align: center;
+    margin: 0px auto;
+}
+
+
+@media screen and (max-width:767px){
+    
+    #NewArrivals{
+        width: 100%;
+          /* border: 3px solid red;  */
+         margin: 0px 10;
+         
+    }
+
+
+    #card-columns{
+         /* border: 3px solid red;   */
+        width: 100%;
+        margin: 0px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    #card-columns .card{
+    width: 17rem;
+    height: 22rem;
+    margin: 10px auto;
+    /* border: 3px solid red;   */
+
+    
+}
+#SearchBar{
+    height: 230px;
+}
+#paragraphText{
+    font-size: 2.5rem;
+    margin-left: -1rem;
+}
+#h3{
+    font-size: 1.3rem;
+    padding-top: 15px;
+    margin-left: -1rem;
+}
+#left-side-input{
+    margin-top: -4rem;
+}
+#blackColor{
+    font-size: 2rem;
+}
+#gray{
+    
+    font-size: 1.3rem;
+}
+#follow{
+    font-size: 2rem;
+}
+/* #center-text{
+    /* border: 3px solid red; 
+} */
+#left-column{
+    width: 45%;
+
+}
+#footer-text{
+    font-size: 1.4rem;
+    text-align: center;
+}
+}
+
+
+
+
+@media screen and (max-width:600px){
+    #NewArrivals{
+        margin: 10px auto;
+    }
+
+    #NewArrivals h2{
+        text-align: left;
+        font-size: 1.8rem;
+        color: blue;
+        padding: 0px 70px;
+    }
+    #NewArrivals .top-text{
+        text-align: left;
+        color: gray;
+        padding: 0px 70px;
+        font-size: 1rem;
+        
+    }
+    #card-columns{
+         /* border: 3px solid red; */
+        width: 100%;
+        margin: 0px auto;
+        
+    }
+    #card-columns .card{
+    width: 20rem;
+    height: 19rem;
+    margin: 10px auto;
+    /* border: 3px solid red; */
+    
+} 
+#card-columns .card #img{
+    width: 180px;
+    height: 150px;
+}
+
+#center-text{
+    
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    /* border: 3px solid red; */
+    
+}
+#gray{
+    
+    font-size: 14px;
+}
+#blackColor{
+    font-size: 1rem;
+}
+
+#SearchBar{
+    height: 34vh;
+    
+}
+#paragraphText{
+  font-size: 1.4rem;
+  margin-left: -5.4rem;
+}
+#h3{
+    font-size: 1rem;
+    margin-left: -5.4rem;
+}
+#left-side-input{
+   margin:auto;
+    /* border: 3px solid red; */
+    width: 95%;
+}
+input{
+    width: 100%;
+    height: 60px;
+    margin:0px 10px;
+    border-radius: 5px;
+}
+
+#sign-up{
+   width: 100%;
+   height: 60px;
+   margin:5px 10px;
+   border-radius: 5px;
+} 
+
+}
+
+
